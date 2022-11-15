@@ -5,8 +5,8 @@ addEventListener("DOMContentLoaded", (e) => {
         validar();
         function validar(){
             let cant = document.getElementById("num1").value;
-            total = cant*4910
-            document.getElementById("res1").innerHTML = `La cantidad en pesos colombianos es de ${total} pesos`;
+            total = (cant*1.8)+32
+            document.getElementById("res1").innerHTML = `La temperatura en F° es ${total}`;
         }
     })
 })

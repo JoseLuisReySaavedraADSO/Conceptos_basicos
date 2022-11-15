@@ -4,10 +4,10 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .fondo{
-    background-image: url("https://www.pngall.com/wp-content/uploads/5/United-States-Dollar-Bill-PNG-Images.png");
+    background-image: url("https://i.pinimg.com/originals/69/ca/d4/69cad4b7a425f8814c2753078c3fb3dd.png");
 }
 .form{
-    max-width: 500px;
+    max-width: 700px;
     margin: auto;
     margin-top: 90px;
 }
@@ -17,15 +17,16 @@
     display: flex;
     flex-direction: column;
     line-height: 50px;
-    /* border-radius: 20px; */
     background-color: white;
-    box-shadow: 0 0 100px rgb(52, 84, 38);
+    box-shadow: 0 0 100px rgb(0, 30, 255);
     text-align: center;
+    border-radius: 60px;
+    margin-left: 250px;
 }
 
 
 .formulario h3{
-    color: rgb(94, 164, 64);
+    color: rgb(64, 97, 164);
     padding: 5px;
     text-align: center;
 }
@@ -43,17 +44,22 @@
 .btn{
     height: 40px;
     padding: 0 10px;
+    width: 115px;
     outline: none;
     border: 0;
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
-    box-shadow: 0 0 20px rgb(102, 163, 137);
+    box-shadow: 0 0 20px rgb(104, 102, 163);
 }
-
-.btn:hover{
-    font-size: 18px;
+.foto{
+    width: 480px;
 }
-img{
+.foto2{
+    width: 400px;
+}
+.foto3{
     width: 100px;
-    margin: 0px 1000px 10px 0px;
+}
+.foto3:hover{
+    width: 70px;
 }
