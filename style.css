@@ -1,33 +1,59 @@
 *{
-    background-color: rgb(148, 252, 252);
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-h2{
-    color: blue;
+.fondo{
+    background-image: url("https://www.pngall.com/wp-content/uploads/5/United-States-Dollar-Bill-PNG-Images.png");
 }
-table{
-    background-color: rgb(135, 192, 245);;
+.form{
+    max-width: 500px;
+    margin: auto;
+    margin-top: 90px;
 }
-td{
-    background-color: rgb(135, 192, 245);
-    border: 2px solid blue;
-    width: 200px;
-    height: 100px;
+
+.form-content{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    line-height: 50px;
+    /* border-radius: 20px; */
+    background-color: white;
+    box-shadow: 0 0 100px rgb(52, 84, 38);
     text-align: center;
 }
-th{
-    background-color: rgb(233, 182, 182);
-    border: 2px solid red
-}
-span{
-    color: red;
-    text-shadow: 2px 3px 10px red;
-}
-h1{
-    color: red;
-    font-size: 50px;
+
+
+.formulario h3{
+    color: rgb(94, 164, 64);
+    padding: 5px;
     text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.borde{
-    border-bottom: 5px solid blue;
+
+.input-number{ 
+    height: 40px;
+    padding: 0 10px;
+    outline: none;
+    border: 0;
+    border-radius: 10px;
+    display: flex;
+    margin: 5px auto;
+    background-color: rgb(216, 216, 216);
+}
+.btn{
+    height: 40px;
+    padding: 0 10px;
+    outline: none;
+    border: 0;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 20px rgb(102, 163, 137);
+}
+
+.btn:hover{
+    font-size: 18px;
+}
+img{
+    width: 100px;
+    margin: 0px 1000px 10px 0px;
 }
